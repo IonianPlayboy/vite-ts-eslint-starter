@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"strict": true,
+		"esModuleInterop": true,
+		"jsx": "preserve",
+		"sourceMap": true,
+		"lib": ["esnext", "dom"],
+		"skipLibCheck": true,
+		"isolatedModules": true,
+		"paths": {
+			"/@/*": ["./src/*"]
+		}
+	},
+	"include": ["src/**/*.ts", "src/**/*.d.ts"]
+}
